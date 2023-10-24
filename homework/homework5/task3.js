@@ -1,14 +1,7 @@
-function arrSort(arr) {
-    for (let j = arr.length - 1; j > 0; j--) {
-        for (let i = 0; i < j; i++) {
-            if (arr[i] > arr[i + 1]) {
-                [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]]
-            }
-        }
-    }
-    return arr
-}
+let arr1 = [2, 5, 1, 3, 4];
+let arr2 = [12, 33, 3, 44, 100];
+let arr3 = [0, 1];
 
-console.log(arrSort([2, 5, 1, 3, 4]))
-console.log(arrSort([12, 33, 3, 44, 100]))
-console.log(arrSort([0, 1]))
+console.log(arr1.sort((a, b) => a - b))
+console.log(arr2.sort((a, b) => a - b))
+console.log(arr3.sort((a, b) => a - b))

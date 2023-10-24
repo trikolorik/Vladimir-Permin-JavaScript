@@ -1,15 +1,3 @@
-function getOlderUserArray(arr){
-    let maxAge = -1
-    let olderUser = ''
-    for (let i = 0; i < arr.length; i++){
-        if (arr[i].age > maxAge){
-            maxAge = arr[i].age
-            olderUser = arr[i].name
-        }
-    }
-    return olderUser
-}
-
 let allUsers = [
     {name: 'Валя', age: 11},
     { name: 'Таня',age: 24},
@@ -18,4 +6,5 @@ let allUsers = [
     {name: 'Антон', age: 7}
 ]
 
-console.log(getOlderUserArray(allUsers))
+console.log(allUsers.sort((a, b) => b.age - a.age)[0].name)
+

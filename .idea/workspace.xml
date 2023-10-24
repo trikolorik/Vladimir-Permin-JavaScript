@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="56796fa6-9c9b-44c1-a00d-add9206ff46a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,9 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2X9uQ1zuFSUrYZU5x9ihCsSZ1uA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,9 +23,40 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Node.js.task2.js">
+    <configuration name="task2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework6/task2.js" working-dir="$PROJECT_DIR$/homework/homework6">
+      <method v="2" />
+    </configuration>
+    <configuration name="task2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework5/task2.js" working-dir="$PROJECT_DIR$/homework/homework5">
+      <method v="2" />
+    </configuration>
+    <configuration name="task3.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework6/task3.js" working-dir="$PROJECT_DIR$/homework/homework6">
+      <method v="2" />
+    </configuration>
+    <configuration name="task3.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework5/task3.js" working-dir="$PROJECT_DIR$/homework/homework5">
+      <method v="2" />
+    </configuration>
+    <configuration name="task3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework4/task3.js" working-dir="$PROJECT_DIR$/homework/homework4">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.task2.js" />
+        <item itemvalue="Node.js.task3.js (2)" />
+        <item itemvalue="Node.js.task3.js (1)" />
+        <item itemvalue="Node.js.task2.js (1)" />
+        <item itemvalue="Node.js.task3.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698053597914</updated>
       <workItem from="1698053599404" duration="12000" />
+      <workItem from="1698135464627" duration="2101000" />
     </task>
     <servers />
   </component>

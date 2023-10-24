@@ -4,7 +4,8 @@ function createStudentCard(name, age){
     let span = document.createElement('span')
 
     h2.textContent = name
-    span.textContent = 'Возраст:' + ' ' + age + ' ' + 'лет'
+    span.textContent = `Возраст ${age} лет`
+
 
     studentCard.append(h2, span)
     document.body.append(studentCard);
