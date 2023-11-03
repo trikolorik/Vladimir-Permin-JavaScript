@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,7 +43,10 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.task2.js">
+  <component name="RunManager" selected="Node.js.main.js">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/practice/practice3/main.js" working-dir="$PROJECT_DIR$/practice/practice3">
+      <method v="2" />
+    </configuration>
     <configuration name="task2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework6/task2.js" working-dir="$PROJECT_DIR$/homework/homework6">
       <method v="2" />
     </configuration>
@@ -56,16 +59,13 @@
     <configuration name="task3.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework5/task3.js" working-dir="$PROJECT_DIR$/homework/homework5">
       <method v="2" />
     </configuration>
-    <configuration name="task3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/homework4/task3.js" working-dir="$PROJECT_DIR$/homework/homework4">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.task2.js" />
         <item itemvalue="Node.js.task3.js (2)" />
         <item itemvalue="Node.js.task3.js (1)" />
         <item itemvalue="Node.js.task2.js (1)" />
-        <item itemvalue="Node.js.task3.js" />
       </list>
     </recent_temporary>
   </component>
@@ -82,6 +82,7 @@
       <workItem from="1698220854307" duration="1894000" />
       <workItem from="1698821960711" duration="5505000" />
       <workItem from="1698920878555" duration="6011000" />
+      <workItem from="1698993972368" duration="7896000" />
     </task>
     <servers />
   </component>
