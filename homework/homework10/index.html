@@ -2,10 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Список студентов</title>
     <script defer src="main.js"></script>
 </head>
 <body>
-<table id="mytable"></table>
+<h1>Панель управления студентами</h1>
+
+<!-- Форма для добавления нового студента -->
+<form id="studentForm">
+    <input type="text" id="firstName" placeholder="Имя" required>
+    <input type="text" id="lastName" placeholder="Фамилия" required>
+    <input type="text" id="patronymic" placeholder="Отчество" required>
+    <input type="text" id="birthdate" placeholder="Дата рождения" required>
+    <input type="text" id="yearOfBeginning" placeholder="Год начала обучения" required>
+    <input type="text" id="faculty" placeholder="Факультет" required>
+
+    <!-- Добавьте остальные поля для студента -->
+    <button type="submit">Добавить студента</button>
+</form>
+
+<!-- Поля для фильтров -->
+<input type="text" id="nameFilter" placeholder="Фильтр по Ф. И. О.">
+<!-- Другие поля для фильтров -->
+
+<!-- Таблица со студентами -->
+<table class="studentsTable" >
+    <thead>
+        <tr>
+            <th onclick="sortTable('fullName')">Ф. И. О. студента</th>
+            <th onclick="sortTable('faculty')">Факультет</th>
+            <th onclick="sortTable('birthdate')">Дата рождения</th>
+            <th onclick="sortTable('yearOfEnding')">Год окончания обучения</th>
+        </tr>
+    </thead>
+    <tbody class="table-body">
+    <!-- Здесь будут строки с данными студентов -->
+    </tbody>
+</table>
+
 </body>
 </html>
